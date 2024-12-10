@@ -1,0 +1,45 @@
+#contenedor{
+    border: 2px solid rgb(38, 207, 157);
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    padding-top: 60px;
+}
+.servicio{
+    width: 30%;
+    text-align: center;
+}
+p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: orangered;
+}
+.servicio img{
+    width: 40%;
+    height: 40%;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    color: aquamarine;
+    text-shadow: 7px 5px 3px black;
+}
+nav{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
